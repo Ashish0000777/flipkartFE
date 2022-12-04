@@ -7,8 +7,6 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { DataContext } from "../../Context/dataProvider";
 
-
-
 const Header = () => {
   const navigate = useNavigate()
 

@@ -1,6 +1,5 @@
 import axios from "axios";
 import * as actionType from "../constants/ProductConstance";
-
 export const getproduct = () => async (dispatch) => {
   try {
     let { data } = await axios.get(`https://flipcart-backend-api-production.up.railway.app/products`);

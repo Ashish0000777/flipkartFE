@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import { getProductById } from "../../Redux/actions/productActions";
 import ProductView from "./ProductView";
 
-
 const DetailsView = () => {
   const { loading, product } = useSelector((state) => state.getProductById);
 

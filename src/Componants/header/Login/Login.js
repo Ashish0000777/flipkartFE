@@ -28,6 +28,7 @@ const accountInitialValues = {
     subtitle: "Sign up with your mobile number to get started",
   },
 };
+
 const LoginDialog = () => {
   const [account, setAccount] = useState(accountInitialValues.login);
   const [SignupInfo, setSignupInfo] = useState(SignupOBJ);

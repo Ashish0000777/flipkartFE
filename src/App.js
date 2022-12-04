@@ -19,5 +19,4 @@ function App(children) {
     </DataProvider>
   );
 }
-
 export default App;

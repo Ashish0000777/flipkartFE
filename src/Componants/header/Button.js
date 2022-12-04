@@ -7,7 +7,6 @@ const Buttons = () => {
   const { account, togleAccount } = useContext(DataContext);
   const { cartitems } = useSelector((state) => state.cart);
   let navigate = useNavigate()
-
   return (
     <div className=" d-flex align-items-center me-auto ms-4 gap-2">
       {account === "" ? (

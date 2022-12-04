@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const CalculationView = ({ cartitems }) => {
   const [price, setPrice] = useState(0);
   const [discount, setDiscount] = useState(0);
-
   const totalAmount = () => {
     let price = 0,
       discount = 0;

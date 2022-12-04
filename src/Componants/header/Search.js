@@ -5,7 +5,6 @@ import { getproduct } from "../../Redux/actions/productActions";
 const Search = () => {
   const [Text, setText] = useState('');
   const dispatch = useDispatch();
-
   const { product } = useSelector((state) => state.getproduct);
 
   useEffect(() => {

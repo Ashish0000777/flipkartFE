@@ -6,7 +6,6 @@ import Swal from "sweetalert2";
 import axios from "axios";
 import { useContext } from "react";
 import { DataContext } from "../../Context/dataProvider";
-
 const ProductView = ({ product }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();

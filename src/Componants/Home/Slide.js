@@ -29,7 +29,6 @@ const Slide = ({ product , title , timer }) => {
         </p>
       )
     }
-
   return (
     <div className="container-fluid bg-light px-0 px-md-1 px-lg-3">
       <div className=" border border-2 my-2 py-2 row d-flex justify-content-center align-items-center">

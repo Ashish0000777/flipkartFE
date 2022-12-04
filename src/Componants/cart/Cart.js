@@ -12,7 +12,6 @@ import { useNavigate } from "react-router-dom";
 const Cart = () => {
   const fassured =
     "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png";
-
   const { cartitems } = useSelector((state) => state.cart);
   const { account, togleAccount } = useContext(DataContext);
   let navigate = useNavigate();
